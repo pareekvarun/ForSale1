@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <ImageButton
+        android:id="@+id/btn_allItems"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/all_items2" />
+
+    <ImageButton
+        android:id="@+id/btn_books"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/books" />
+
+    <ImageButton
+
+        android:id="@+id/btn_electronics"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/electronics2" />
+
+    <ImageButton
+        android:id="@+id/btn_cycle"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="180dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/cycle" />
+
+    <ImageButton
+        android:id="@+id/btn_misc"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/misc" />
+
+    <ImageButton
+        android:id="@+id/btn_mobiles"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="307dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/mobiles2" />
+
+    <ImageButton
+        android:id="@+id/btn_myList"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="500dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:padding="4dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/mypost" />
+</RelativeLayout>

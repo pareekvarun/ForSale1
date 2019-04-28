@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/supertest/Downloads/ForSale/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/supertest/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/0351424dc5d30ada5ef632bbb9eb9112/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/supertest/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f8aceba870432d106f3dd676c8156a07/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".activity_all_Items">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="5dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/back3"
+            android:padding="4dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="Items Preview"
+            android:textColor="@color/blue4"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="5dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/home3"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/result_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp">
+
+
+    </ListView>
+
+
+</RelativeLayout>
